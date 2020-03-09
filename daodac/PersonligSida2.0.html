@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+	<meta charset="utf-8">
+	<style>body{
+		background-color: #E3FCFF;
+		margin: 0px;
+		padding: 0px; 
+	}
+	
+	header{
+		padding-top: 32px;
+		padding-bottom: 8px;
+		text-align: center;
+		background-image: url("../img/sol.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		color: white;
+		text-shadow: 1px 0px grey, -1px 0px grey;
+		font-size: 30px;
+	}
+	
+	header h1 {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 80px;
+		text-shadow: 5px 5px grey;
+	}
+	
+	nav{
+		background-color: #FFE4E1;
+		padding-top: 10px;
+		padding-bottom: 32px;
+	}
+	
+	li.navbaritem {
+		float: left;
+		margin-left: 16%;
+		margin-top: -10px;
+		list-style: none;
+		background-color: #D5FCEA;
+		border: 2px #D5FCEA solid;
+		border-radius: 5px;
+	}
+	
+	li.navbaritem a {
+		font-family: "Times New Roman", Times, serif;
+		text-decoration: none;
+		font-size: 1.5em;
+		color: black;
+	}
+	
+	li.navbaritem a:hover{
+		text-shadow: 2px 2px 2px dimgrey;
+	}
+	
+	article{
+		width: 90%;
+		margin: 20px auto;
+	}
+	
+	h2{
+		text-decoration: underline;
+		font-size: 30px;
+	}
+	
+	article p{
+		font-size: 20px;
+	}
+	
+	span.stortH{
+		font-size: 40px;
+	}
+	div.familjBox{
+		background-color: #f7e4e8;
+		padding: 10px;
+		border: 5px grey inset;
+		border-radius: 5px;
+		display: flex;
+		flex-direction: row;
+	}
+	div.familjBox img{
+		height: 300px;
+	}
+	div.familjBox ul{
+		list-style: url("../img/heart.png") inside;
+		width: 100%;
+		font-size: 24px;
+		line-height: 3em;
+	}
+	
+	#favoriter{
+		border-style: double;
+		border-width: 10px;
+		padding: 20px;
+		padding-top: 5px;
+		border-radius: 25px;
+	}
+	
+	img.thumbnail{
+		width: 150px;
+		margin: 10px auto 10px auto;
+		height: 100px;
+	}
+	
+	table{
+		border-style: solid;
+		width: 100%;
+	}
+	
+	th{
+		font-size: 18px;
+	}
+	
+	td{
+		border-style: solid;
+		text-align: center;
+	}
+	
+	footer{
+		background-image: linear-gradient(#E3FCFF, #fabade);
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 100px;
+	}
+	
+	</style>
+	<title>Personlig Sida</title>
+</head>
+
+<body>
+
+<header>
+		<h1>Sun Gedin</h1>
+		Min första hemsida
+</header>
+
+<nav>
+	<ul>
+		<li class="navbaritem"><a href="#sjalvbeskrivning">Beskrivning om mig</a></li>
+		<li class="navbaritem"><a href="#familj">Min familj</a></li>
+		<li class="navbaritem"><a href="#favoriter">Mina favoriter</a></li>
+	 </ul>
+</nav>
+
+<article id="sjalvbeskrivning">
+	<h2>Beskrivning om mig</h2>
+	<p class="beskrivning"> <span class="stortH">H</span>ej allesammans. På denna hemsida kommer du som läser att få en liten inblick om mig. Jag heter Emmeli Sun Gedin och är en 17 årig tjej från Stockholm. Jag tänker inte berätta så mycket om vad jag gillar eftersom jag har gjort en tabell längre ner på denna sida om vad jag gillar. Ni kan även läsa lite om min familj under denna på sidan. Nu ska jag skriva lite lorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p> 
+	<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	
+</article>
+
+<article id="familj">
+
+	<h2>Min familj</h2>
+
+	<div class="familjBox">
+		<ul>
+			<li>Min mamma heter Kim</li>
+			<li>Min pappa heter Staffan</li>
+			<li>Jag har tre systrar. Joy, Johanna och Pani</li>
+		</ul>
+
+		<img src="img/familj.jpg" alt="Bild på min familj">
+	</div>
+
+</article>
+
+<article id="favoriter">
+	<h2>Mina favoriter</h2>
+
+	<table>
+		<tr>
+			<th>Bild</th>
+			<th>Beskrivning</th>
+			<th>Hur bra 1-10</th>
+		</tr>
+
+		<tr>
+			<td> <img class="thumbnail" src="img/hundBerner.jpg" alt="Berner Sennen"></td>
+			<td> Berner Sennen är en gammal gårdshund som användes för vakt- och boskapsdrivande hund i alpområdet. Det är en mycket trevlig familjehund som kräver mycket omsorg.</td>
+			<td>10</td>
+		</tr>
+
+		<tr>
+			<td> <img class="thumbnail" src="img/Lantchips.jpg" alt="Bild på en påse Lantchips"></td>
+			<td>Lantchips är ett bolag som tillverkar chips som startade år 1990 och är det bästa chipsmärket i världen, enligt mig.</td>
+			<td>9</td>
+		</tr>
+
+		<tr>
+			<td><img class="thumbnail" src="img/gymnastik.jpg" alt="Bild på gymnaster"></td>
+			<td>Truppgymnastik är en tävlingsform av gymnastik som växte fram under 70-talet i Sverige. Jag har själv hållit på med truppgymnastik i 10 år. </td>
+			<td>9,5</td>
+		</tr>
+	</table>
+
+</article>
+
+<footer>
+		<p>Copyright© Sun Gedin - NTI Gymnasiet Stockholm <br>
+			<a href="#">TILLBAKA TILL TOPPEN</a>
+		</p>
+</footer>
+
+</body>
+</html>
